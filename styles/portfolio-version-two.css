@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.containerforside{
+	background: linear-gradient(to left,  white 0%,white 33%,#CEB8B8 33%,#CEB8B8 100%);
+	border: 1px solid black;
+	
+}
+
+.socialemedier img{
+	float: right;
+	border: 1px solid red;
+	width: 8%;
+}
+
+.normalnavi{
+	border: 1px solid blue;
+}

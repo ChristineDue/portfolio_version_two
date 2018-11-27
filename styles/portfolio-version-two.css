@@ -7,13 +7,23 @@
 	border: 1px solid black;
 	
 }
-
+#someimages{
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid blue;
+}
 .socialemedier img{
-	float: right;
-	border: 1px solid red;
-	width: 8%;
+	width: 50%;
 }
 
 .normalnavi{
+	padding: 0 5%;
 	border: 1px solid blue;
+	margin-top: 20px;
+
+}
+
+#nav a{
+	text-decoration: none;
+	color: black;
 }

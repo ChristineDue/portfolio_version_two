@@ -1,6 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Style på alle sider*/
+
+.SoMeimages{
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid blue;
+}
+.socialemedier img{
+	width: 50%;
+}
+.normalnavigation {
+	padding: 0 5%;
+	border: 1px solid blue;
+	margin-top: 20px;
+}
+#navigation a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style-type: none;
+}
+#footer{
+	text-align: left;
+}
+
 /*Forside style*/
 .containerforside{
 	background: linear-gradient(to left,  white 0%,white 33%,#CEB8B8 33%,#CEB8B8 100%);
@@ -30,30 +56,44 @@
 h1, h2{
 	border: 1px solid orange;
 }
-/*Style på alle sider*/
 
-.SoMeimages{
-	display: flex;
-	justify-content: flex-end;
+/*Projekter style*/
+.projekter{
+	
+}
+.flow2{
+	border: 1px solid black;
+}
+.flow2 img{
+	width: 100%;
+	height: auto;
+	margin-left: 12%;
+	margin-top: -4%;
 	border: 1px solid blue;
 }
-.socialemedier img{
-	width: 50%;
+.flow3 img{
+	width: 85%;
+	height: 100%;
+	border: 1px solid red;	
 }
-.normalnavigation {
-	padding: 0 5%;
+.flow4 img{
+	width: 95%;
+	height: auto;
 	border: 1px solid blue;
-	margin-top: 20px;
 }
-#navigation a{
-	text-decoration: none;
-	color: black;
+.flow4{
+	margin-top: 10%;
 }
-li{
-	list-style-type: none;
+.flow5{
+	border: 1px solid orange;
+	margin-left: 4%;
+	margin-top: 10%;
 }
-#footer{
-	text-align: left;
+.flow5 img{
+	width: 85%;
+	height: auto;
+	border: 1px solid red;	
 }
+
 /*Slideshow forside - inspiration fra https://codepen.io/davidhc/pen/nLpJk*/
 

@@ -1,13 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+/*Forside style*/
 .containerforside{
 	background: linear-gradient(to left,  white 0%,white 33%,#CEB8B8 33%,#CEB8B8 100%);
 	border: 1px solid black;
-	
 }
-#someimages{
+.forsidebillede, .slideshow{
+	text-align: center;
+	border: 1px solid red;
+}
+.slideshow{
+		margin: auto;
+}
+.forsidebillede img{
+	width: 80%;
+	height: auto;
+}
+.slideshow img{
+	width: 90%;
+	height: auto;
+	padding: 17% 5%;
+}
+
+.tekst{
+	text-align: center;
+}
+
+h1, h2{
+	border: 1px solid orange;
+}
+/*Style på alle sider*/
+
+.SoMeimages{
 	display: flex;
 	justify-content: flex-end;
 	border: 1px solid blue;
@@ -15,15 +40,20 @@
 .socialemedier img{
 	width: 50%;
 }
-
-.normalnavi{
+.normalnavigation {
 	padding: 0 5%;
 	border: 1px solid blue;
 	margin-top: 20px;
-
 }
-
-#nav a{
+#navigation a{
 	text-decoration: none;
 	color: black;
 }
+li{
+	list-style-type: none;
+}
+#footer{
+	text-align: left;
+}
+/*Slideshow forside - inspiration fra https://codepen.io/davidhc/pen/nLpJk*/
+

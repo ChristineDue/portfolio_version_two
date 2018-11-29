@@ -3,6 +3,11 @@
 
 /*Style på alle sider*/
 
+img{
+	border: 1px solid #858585;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+}
+
 .SoMeimages{
 	display: flex;
 	justify-content: flex-end;
@@ -10,6 +15,7 @@
 }
 .socialemedier img{
 	width: 50%;
+	box-shadow: none;
 }
 .normalnavigation {
 	padding: 0 5%;
@@ -30,6 +36,7 @@ li{
 
 /*Forside style*/
 .containerforside{
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
 	background: linear-gradient(to left,  white 0%,white 33%,#CFCDCD 33%,#CFCDCD 100%);
 	border: 1px solid black;
 }
@@ -54,14 +61,7 @@ li{
 	text-align: center;
 }
 
-h1, h2{
-	border: 1px solid orange;
-}
-
 /*Projekter style*/
-.flow1{
-	
-}
 
 .flow1 img{
 	width: 100%;
@@ -100,21 +100,87 @@ h1, h2{
 }
 
 /*Flow sider style*/
-.flow1underside{
-	
+.overskriftlink{
+	margin-top: 5%;
+}
+.overskriftlink h1{
+	font-size: 1em;
+}
+.overskriftlink a{
+	text-decoration: none;
+	color: black;
+}
+.menulinje{
 	text-align: center;
+}
+
+.billedtekst h1, .billedtekst h2{
+	text-align: left;
+	margin-left: 5%;
+}
+.flowtekst{
+	margin-top: 5%;
+}
+.flowtekst p{
+	padding: 0 5%;
+	text-align: justify;
+}
+.row{
+	margin-top: 2%;
+	text-align: center;
+}
+.row p{
+	padding: 0 5%;
+	text-align: justify;
+}
+
+
+/*flow1*/
+.flow1underside{
+	text-align: center;
+	margin-top: 5%;
 }
 .flow1underside img{
 	border: 1px solid red;
 	width: 40%;
-}
-.overskriftlink{
-	border: 1px solid red;
-	margin-top: 10%;
-}
-.overskriftlink h1{
-	font-size: 1em;
 	
+}
+
+/*flow2*/
+.flow2underside{
+	text-align: center;
+	margin-top: 5%;
+}
+.flow2underside img{
+	width: 90%;
+}
+
+.flow2skitse{
+	text-align: center;
+}
+.flow2skitse img{
+	width: 50%;
+}
+.flow2folderstructure img{
+	width: 30%;
+}
+.flow2logoundervejs img{
+	width: 80%;
+}
+.flow2logo img{
+	width: 80%;
+}
+.ideas img{
+	width: 50%;
+}
+.pen img{
+	width: 50%;
+}
+.projectpage{
+	padding: 5%;
+}
+.projectpage img{
+	width: 100%;
 }
 
 /*Slideshow forside - inspiration fra https://codepen.io/davidhc/pen/nLpJk*/

@@ -59,8 +59,14 @@ h1, h2{
 }
 
 /*Projekter style*/
-.projekter{
+.flow1{
 	
+}
+
+.flow1 img{
+	width: 100%;
+	height: auto;
+	border: 1px solid green;
 }
 .flow2{
 	border: 1px solid black;
@@ -68,14 +74,11 @@ h1, h2{
 .flow2 img{
 	width: 100%;
 	height: auto;
-	margin-left: 12%;
-	margin-top: -4%;
 	border: 1px solid blue;
 }
 .flow3 img{
 	width: 100%;
 	height: auto;
-	height: 100%;
 	border: 1px solid red;	
 }
 .flow4{
@@ -88,13 +91,30 @@ h1, h2{
 }
 
 .flow5{
-	margin-left: 4%;
 	margin-top: 10%;
 }
 .flow5 img{
 	width: 100%;
 	height: auto;
 	border: 1px solid red;	
+}
+
+/*Flow sider style*/
+.flow1underside{
+	
+	text-align: center;
+}
+.flow1underside img{
+	border: 1px solid red;
+	width: 40%;
+}
+.overskriftlink{
+	border: 1px solid red;
+	margin-top: 10%;
+}
+.overskriftlink h1{
+	font-size: 1em;
+	
 }
 
 /*Slideshow forside - inspiration fra https://codepen.io/davidhc/pen/nLpJk*/

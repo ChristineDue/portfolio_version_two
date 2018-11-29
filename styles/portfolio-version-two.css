@@ -19,6 +19,7 @@
 #navigation a{
 	text-decoration: none;
 	color: black;
+	font-size: 1.5em;
 }
 li{
 	list-style-type: none;
@@ -29,7 +30,7 @@ li{
 
 /*Forside style*/
 .containerforside{
-	background: linear-gradient(to left,  white 0%,white 33%,#CEB8B8 33%,#CEB8B8 100%);
+	background: linear-gradient(to left,  white 0%,white 33%,#CFCDCD 33%,#CFCDCD 100%);
 	border: 1px solid black;
 }
 .forsidebillede, .slideshow{
@@ -72,25 +73,26 @@ h1, h2{
 	border: 1px solid blue;
 }
 .flow3 img{
-	width: 85%;
+	width: 100%;
+	height: auto;
 	height: 100%;
 	border: 1px solid red;	
-}
-.flow4 img{
-	width: 95%;
-	height: auto;
-	border: 1px solid blue;
 }
 .flow4{
 	margin-top: 10%;
 }
+.flow4 img{
+	width: 100%;
+	height: auto;
+	border: 1px solid blue;
+}
+
 .flow5{
-	border: 1px solid orange;
 	margin-left: 4%;
 	margin-top: 10%;
 }
 .flow5 img{
-	width: 85%;
+	width: 100%;
 	height: auto;
 	border: 1px solid red;	
 }

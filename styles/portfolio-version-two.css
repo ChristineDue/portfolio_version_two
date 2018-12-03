@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	font-family: 'Muli', serif;
+	font-family: 'Varela Round', sans-serif;
 }
 
 /*Style på alle sider*/
@@ -26,9 +26,14 @@ img{
 .normalnavigation {
 	padding: 0 5%;
 }
-.normalnavigation img{
-	width: 20%;
+.logo img{
+	position: relative;
+	bottom: 20px;
+	left: 10%;
+	width: 60%;
 	height: auto;
+	box-shadow: none;
+	border: none;
 }
 #navigation{
 	margin-top: 2%;
@@ -36,7 +41,7 @@ img{
 #navigation a{
 	text-decoration: none;
 	color: black;
-	font-size: 1.25em;
+	font-size: 1.20em;
 	font-weight: 600;
 }
 
@@ -47,13 +52,23 @@ img{
 #navigation .currentpage{
 	color: #00818B;
 }
-li{
+#footer li{
 	list-style-type: none;
+	font-size: 0.80em;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+li{
+	text-align: justify;
 }
 #footer{
-	text-align: left;
+	margin-left: 65%;
 }
-
+.footerkontakt h2{
+	font-size: 1em;
+	text-align: inherit;
+	border-bottom: 1px solid #000000;
+}
 /*Forside style*/
 .containerforside{
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);

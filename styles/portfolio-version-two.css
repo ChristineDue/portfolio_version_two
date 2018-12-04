@@ -262,7 +262,7 @@ li{
   opacity: 1;
 }
 /*Flow sider style*/
-/*link og dropdowns*/
+/*link og dropdowns med inspiration fra https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
 .overskriftlink, .dropknap{
 	margin-top: 5%;
 	margin-right: 1%;
@@ -340,7 +340,7 @@ li{
 	text-align: justify;
 }
 
-/*Arrows*/
+/*Arrows med inspiration fra https://codepen.io/carstenmeyer/pen/rraoAp*/
 .pic {
   	margin: 2% 5%;/* demo spacing */
   	display: inline-block;

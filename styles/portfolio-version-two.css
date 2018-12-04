@@ -340,7 +340,38 @@ li{
 	text-align: justify;
 }
 
-
+/*Arrows*/
+.pic {
+  	margin: 2% 5%;/* demo spacing */
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 0; 
+  	height: 0; 
+}
+.rightarrow{
+	text-align: right;
+}
+.arrow-left {
+  	border-top: 18px solid transparent;
+  	border-bottom: 18px solid transparent;
+  	border-right: 18px solid #737373;
+	cursor: pointer;
+}
+.arrow-right {
+  	border-top: 18px solid transparent;
+  	border-bottom: 18px solid transparent;
+  	border-left: 18px solid #737373;
+	color: black;
+	cursor: pointer;
+}
+.previous, .next{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.previous:hover, .next:hover{
+	color: #959595;
+}
 /*flow1*/
 .flow1underside{
 	text-align: center;

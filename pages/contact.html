@@ -6,65 +6,55 @@
 <meta name="description" content="Portfolio for Christine Due">
 <meta name="keywords" content="portfolio, Christine Due, CV">
 <meta name="author" content="Christine Due">
-<title>CHRISTINE DUE</title>
-<link rel="stylesheet" href="styles/gridsetup.css">
+<title>Contact</title>
+<link rel="stylesheet" href="../styles/gridsetup.css">
 <!-- Icon library from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles/portfolio-version-two.css">
-<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="../styles/portfolio-version-two.css">
 </head>
-
 <body>
 <div class="grid grid-pad containerforside" id="container">
 	<div class="large-1-1" id="header">
 		<div class="large-1-1 SoMeimages">
 			<div class="socialemedier">
 				<a href="https://www.facebook.com/christineduej" target="_blank">
-					<img src="images/portfolio-new/facebook.png" alt="facebook">
+					<img src="../images/portfolio-new/facebook.png" alt="facebook">
 				</a>
 			</div>
 			<div class="socialemedier">
 				<a href="https://www.instagram.com/due94/" target="_blank">
-					<img src="images/portfolio-new/instagram.png" alt="instagram">
+					<img src="../images/portfolio-new/instagram.png" alt="instagram">
 				</a>
 			</div>
 			<div class="socialemedier">
 				<a href="https://www.linkedin.com/in/christine-due-j%C3%B8rgensen-1a5b23172/" target="_blank">
-					<img src="images/portfolio-new/linkedin.png" alt="linkedin">
+					<img src="../images/portfolio-new/linkedin.png" alt="linkedin">
 				</a>
 			</div>
 		</div>
 	</div>
 	<div class="large-1-1">
 		<div class="large-2-3">
-			<a class="logo" href="#" id="logo">
-				<img src="images/portfolio-new/1x/newlogo.png" alt="logo">
+			<a class="logo" href="../index.html" id="logo">
+				<img src="../images/portfolio-new/1x/newlogo.png" alt="logo">
 			</a> 
 		</div>
 		<div class="large-1-3"  id="navigation">
-			<a class="normalnavigation" href="pages/projects.html">PROJECTS</a>
-			<a class="normalnavigation" href="#">CONTACT</a>
-			<a class="normalnavigation" href="#">ABOUT</a>
+			<a class="normalnavigation" href="projects.html">PROJECTS</a>
+			<a class="normalnavigation currentpage" href="#">CONTACT</a>
+			<a class="normalnavigation" href="">ABOUT</a>
 		</div>
 	</div>
-	<div class="large-1-1">
-		<div class="large-6-12 forsidebillede">
-			<img src="images/portfolio-new/portrait-blackandwhite-withblur.png" alt="Christine Due">
-		</div>
-		<div class="large-6-12">
-			<div class="slider">
-				<div class="slide1"><img src="images/portfolio-new/slideshow/build-your-portfolio.png" alt=""></div>
-				<div class="slide2"><img src="images/portfolio-new/slideshow/app.png" alt=""></div>
-				<div class="slide3"><img src="images/portfolio-new/slideshow/dream-your-portfolio.png" alt=""></div>
-				<!--<div class="slide4"><img src="images/portfolio-new/slideshow/sweetbot.png" alt=""></div>
-				<div class="slide5"><img src="images/portfolio-new/placeholder.jpg" alt=""></div>-->
-			</div>
-		</div>
+	<div class=" large-1-1 contact-title">
+		<h1> Please feel free to contact me  for any questions!</h1>
 	</div>
-	<div class="large-1-1">
-		<div class="large-1-2 tekst">
-			<h1>a webdesigner at first semester</h1>
-		</div>
+	<div class="large-1-1 contact-form">
+		<form id="contact-form" action="mailto:christine_due@outlook.dk" method="post" enctype="text/plain">
+			<input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+			<input name="name" type="email" class="form-control" placeholder="Your email" required><br>
+			<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+			<input type="submit" class="form-control submit" value="Send message">
+		</form>
 	</div>
 	<div class="large-1-1">
 		<div class="large-4-12" id="footer">
@@ -79,5 +69,6 @@
 		</div>
 	</div>
 </div>
+
 </body>
 </html>

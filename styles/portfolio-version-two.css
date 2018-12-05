@@ -469,6 +469,27 @@ img{
 .farve img{
 	width: 50%;
 }
+/*Flow4 style*/
+.flow4brainstorming img{
+	width: 90%;
+}
+.flow4wire img{
+	width: 80%;
+}
+.tablet img{
+	width: 80%;
+	margin-top: 5%;
+}
+.sweetbotikon img{
+	width: 95%;
+	margin: 1%;
+}
+.flow4hotbotlogo img{
+	width: 90%;
+	box-shadow: none;
+	border: none;
+	margin: 5% 0;
+}
 /*Contact style*/
 .contact-form{
 	text-align: center;

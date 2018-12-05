@@ -327,6 +327,9 @@ li{
 .flowtekst{
 	margin-top: 6.5%;
 }
+.flowtekst4{
+	margin-top: 12%;
+}
 .flowtekst p{
 	padding: 0 5%;
 	text-align: justify;
@@ -434,7 +437,38 @@ li{
 	border: none;
 	box-shadow: none;
 }
-
+.flow3persona img{
+	width: 70%;
+}
+img{
+	height: auto;
+}
+.flow3wire img{
+	width: 80%;
+}
+.flow3brainstoming img{
+	width: 90%;
+}
+.flow3ikoner1 img{
+	width: 70%;
+}
+.flow3ikonideer img{
+	width: 70%;
+}
+.flow3ikoner2 img{
+	width: 90%;
+	margin-top: 40%;
+}
+.flow3laginddeling img{
+	width: 70%;
+	margin-top: 10%;
+}
+.ipadproto img, .iphoneproto img{
+	width: 80%;
+}
+.farve img{
+	width: 50%;
+}
 /*Contact style*/
 .contact-form{
 	text-align: center;
@@ -475,9 +509,7 @@ form .submit{
 	letter-spacing: 2px;
 	height: 50px;
 	margin-top: 20px;
-}	
-
-
+}
 @media handheld, only screen and (max-width: 768px){
 .overskriftprojekter{
 	display: flex;
@@ -490,6 +522,7 @@ form .submit{
 }
 
 @media handheld, only screen and (max-width: 375px){
+	
 .overskriftprojekter{
 	display: flex;
 	text-align: center;

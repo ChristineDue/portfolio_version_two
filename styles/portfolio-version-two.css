@@ -115,10 +115,14 @@ li{
   position: absolute;
   width: 100%;
   height: 100%;
+	
+	
 }
-.slide1 img, .slide2 img, .slide3 img{
+.slide1 img, .slide2 img, .slide3 img, .slide4 img, .slide5 img{
 	width: 200%;
 	height: auto;
+	box-shadow: none;
+	border: none;
 }
 .slide1 {
   background: url()no-repeat center;
@@ -138,6 +142,18 @@ li{
       background-size: cover;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
+}
+.slide4 {
+    background: url()no-repeat center;
+      background-size: cover;
+    animation:fade4 8s infinite;
+-webkit-animation:fade4 8s infinite;
+}
+.slide5 {
+    background: url()no-repeat center;
+      background-size: cover;
+    animation:fade5 8s infinite;
+-webkit-animation:fade5 8s infinite;
 }
 @keyframes fade
 {
@@ -160,6 +176,21 @@ li{
   66.666% { opacity: 1}
   100% { opacity: 0}
 }
+@keyframes fade4
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade5
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
 /*Projekter style*/
 /*hover effekt med inspiration fra https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .overskriftprojekter{
@@ -318,7 +349,9 @@ li{
 .menulinje{
 	text-align: center;
 }
-
+.lillemenulinje{
+	display: none;
+}
 .billedtekst h1, .billedtekst h2{
 	text-align: left;
 	margin-left: 5%;
@@ -333,6 +366,10 @@ li{
 .flowtekst p{
 	padding: 0 5%;
 	text-align: justify;
+}
+.flowtekst a, .lilleflowtekst a{
+	text-decoration: none;
+	color: #006169;
 }
 .row{
 	margin-top: 2%;
@@ -532,6 +569,9 @@ form .submit{
 	margin-top: 20px;
 }
 @media handheld, only screen and (max-width: 768px){
+.containerforside{
+	vw: 748px;
+	}
 .overskriftprojekter{
 	display: flex;
 	text-align: center;
@@ -540,6 +580,23 @@ form .submit{
 .overskriftprojekter h1{
 	font-size: 3em;
 }
+#footer{
+	margin-left: 0;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+	
+.lillemenulinje{
+	display: flex;
+	text-align: center;
+}
+.menulinje{
+	display: none;	
+	}
+.flowtekst{
+	display: none;
+	}
+
 }
 
 @media handheld, only screen and (max-width: 375px){
@@ -555,6 +612,7 @@ form .submit{
 .flow1, .flow2, .flow3, .flow4, .flow5{
 	position: relative;
 }
+
 .flow1{
 		text-align: center;
 	}
@@ -573,7 +631,6 @@ form .submit{
 .flow3{
 	text-align: center;
 }
-
 .flow3 img{
 	width: 100%;
 	height: auto;
@@ -591,5 +648,8 @@ form .submit{
 	width: 100%;
 	height: auto;
 }
-
+img{
+	width: 100%;
+	height: auto;
+	}
 }

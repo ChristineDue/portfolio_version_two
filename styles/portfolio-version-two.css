@@ -1,655 +1,652 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	font-family: 'Varela Round', sans-serif;
-	background-color: #006169;
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #006169;
 }
-
 /*Style på alle sider*/
 
-img{
-	border: 1px solid #858585;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+img {
+    border: 1px solid #858585;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
 }
-
-.SoMeimages{
-	display: flex;
-	justify-content: flex-end;
-	margin-top: 1%;
+.SoMeimages {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
 }
-.socialemedier img{
-	width: 50%;
-	box-shadow: none;
-	border: none;
+.socialemedier img {
+    width: 50%;
+    box-shadow: none;
+    border: none;
 }
-
 .normalnavigation {
-	padding: 0 5%;
+    padding: 0 5%;
 }
-.logo img{
-	position: relative;
-	bottom: 20px;
-	left: 10%;
-	width: 60%;
-	height: auto;
-	box-shadow: none;
-	border: none;
+.logo img {
+    position: relative;
+    bottom: 20px;
+    left: 10%;
+    width: 60%;
+    height: auto;
+    box-shadow: none;
+    border: none;
 }
-#navigation{
-	margin-top: 2%;
+#navigation {
+    margin-top: 2%;
 }
-#navigation a{
-	text-decoration: none;
-	color: black;
-	font-size: 1.20em;
-	font-weight: 600;
+#navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.20em;
+    font-weight: 600;
 }
-
-#navigation a:hover{
-	cursor: pointer;
-	color: #1186B0;
+#navigation a:hover {
+    cursor: pointer;
+    color: #1186B0;
 }
-#navigation .currentpage{
-	color: #00818B;
-	border-bottom: 1px solid #00818B;
+#navigation .currentpage {
+    color: #00818B;
+    border-bottom: 1px solid #00818B;
 }
-#footer li{
-	list-style-type: none;
-	font-size: 0.80em;
-	word-spacing: 3px;
-	letter-spacing: 2px;
+#footer li {
+    list-style-type: none;
+    font-size: 0.80em;
+    word-spacing: 3px;
+    letter-spacing: 2px;
 }
-li{
-	text-align: justify;
+li {
+    text-align: justify;
 }
-#footer{
-	margin-left: 65%;
-	margin-top: 5%;
+#footer {
+    margin-left: 65%;
+    margin-top: 5%;
 }
-.footerkontakt h2{
-	font-size: 1em;
-	text-align: inherit;
-	border-bottom: 1px solid #000000;
+.footerkontakt h2 {
+    font-size: 1em;
+    text-align: inherit;
+    border-bottom: 1px solid #000000;
 }
 /*Forside style*/
-.containerforside{
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
-	background: linear-gradient(to left,  white 0%,white 33%,#CFCDCD 33%,#CFCDCD 100%);
-	border: 1px solid black;
+.containerforside {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
+    background: linear-gradient(to left, white 0%, white 33%, #CFCDCD 33%, #CFCDCD 100%);
+    border: 1px solid black;
 }
-.forsidebillede, .slideshow{
-	text-align: center;
+.forsidebillede, .slideshow {
+    text-align: center;
 }
-.slideshow{
-		margin: auto;
+.slideshow {
+    margin: auto;
 }
-.forsidebillede img{
-	width: 80%;
-	height: auto;
-	box-shadow: none;
-	border: none;
+.forsidebillede img {
+    width: 80%;
+    height: auto;
+    box-shadow: none;
+    border: none;
 }
-.slideshow img{
-	width: 100%;
-	height: auto;
-	padding: 17% 5%;
-	box-shadow: none;
-	border: none;
+.slideshow img {
+    width: 100%;
+    height: auto;
+    padding: 17% 5%;
+    box-shadow: none;
+    border: none;
 }
-
-.tekst{
-	text-align: center;
+.tekst {
+    text-align: center;
 }
-
 /*Forside slideshow med inspiration fra https://codepen.io/davidhc/pen/nLpJk*/
 .slider {
-  max-width: 300px;
-  height: 200px;
-  margin: 20px auto;
-  position: relative;
-	right: 30%;
-	top: 50px;
+    max-width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    right: 30%;
+    top: 50px;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-	
-	
+.slide1, .slide2, .slide3, .slide4, .slide5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-.slide1 img, .slide2 img, .slide3 img, .slide4 img, .slide5 img{
-	width: 200%;
-	height: auto;
-	box-shadow: none;
-	border: none;
+.slide1 img, .slide2 img, .slide3 img, .slide4 img, .slide5 img {
+    width: 200%;
+    height: auto;
+    box-shadow: none;
+    border: none;
 }
 .slide1 {
-  background: url()no-repeat center;
-      background-size: cover;
-    animation:fade 8s infinite;
--webkit-animation:fade 8s infinite;
-
-} 
+    background: url()no-repeat center;
+    background-size: cover;
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
 .slide2 {
-  background: url()no-repeat center;
-      background-size: cover;
-    animation:fade2 8s infinite;
--webkit-animation:fade2 8s infinite;
+    background: url()no-repeat center;
+    background-size: cover;
+    animation: fade2 8s infinite;
+    -webkit-animation: fade2 8s infinite;
 }
 .slide3 {
     background: url()no-repeat center;
-      background-size: cover;
-    animation:fade3 8s infinite;
--webkit-animation:fade3 8s infinite;
+    background-size: cover;
+    animation: fade3 8s infinite;
+    -webkit-animation: fade3 8s infinite;
 }
 .slide4 {
     background: url()no-repeat center;
-      background-size: cover;
-    animation:fade4 8s infinite;
--webkit-animation:fade4 8s infinite;
+    background-size: cover;
+    animation: fade4 8s infinite;
+    -webkit-animation: fade4 8s infinite;
 }
 .slide5 {
     background: url()no-repeat center;
-      background-size: cover;
-    animation:fade5 8s infinite;
--webkit-animation:fade5 8s infinite;
+    background-size: cover;
+    animation: fade5 8s infinite;
+    -webkit-animation: fade5 8s infinite;
 }
-@keyframes fade
-{
-  0%   {opacity:1}
-  33.333% { opacity: 0}
-  66.666% { opacity: 0}
-  100% { opacity: 1}
+@keyframes fade {
+ 0% {
+opacity:1
 }
-@keyframes fade2
-{
-  0%   {opacity:0}
-  33.333% { opacity: 1}
-  66.666% { opacity: 0 }
-  100% { opacity: 0}
+ 33.333% {
+opacity: 0
 }
-@keyframes fade3
-{
-  0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
-  100% { opacity: 0}
+ 66.666% {
+opacity: 0
 }
-@keyframes fade4
-{
-  0%   {opacity:0}
-  33.333% { opacity: 1}
-  66.666% { opacity: 0}
-  100% { opacity: 0}
+ 100% {
+opacity: 1
 }
-@keyframes fade5
-{
-  0%   {opacity:0}
-  33.333% { opacity: 0}
-  66.666% { opacity: 1}
-  100% { opacity: 0}
 }
-
+@keyframes fade2 {
+ 0% {
+opacity:0
+}
+ 33.333% {
+opacity: 1
+}
+ 66.666% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade3 {
+ 0% {
+opacity:0
+}
+ 33.333% {
+opacity: 0
+}
+ 66.666% {
+opacity: 1
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade4 {
+ 0% {
+opacity:0
+}
+ 33.333% {
+opacity: 1
+}
+ 66.666% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade5 {
+ 0% {
+opacity:0
+}
+ 33.333% {
+opacity: 0
+}
+ 66.666% {
+opacity: 1
+}
+ 100% {
+opacity: 0
+}
+}
 /*Projekter style*/
 /*hover effekt med inspiration fra https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
-.overskriftprojekter{
-	display: none;
+.overskriftprojekter {
+    display: none;
 }
-
-.flow1, .flow2, .flow3, .flow4, .flow5{
-	position: relative;
+.flow1, .flow2, .flow3, .flow4, .flow5 {
+    position: relative;
 }
-.flow1og2, .flow1, .flow3{
-	margin-top: 1%;
+.flow1og2, .flow1, .flow3 {
+    margin-top: 1%;
 }
-.flow3, .flow4{
-	margin-right: 1%;	
+.flow3, .flow4 {
+    margin-right: 1%;
 }
-.flow1og2, .flow5, .flow1{
-	margin-left: 1%;
+.flow1og2, .flow5, .flow1 {
+    margin-left: 1%;
 }
-
-.flow1 .hiddentext{
-	position: relative;
-	right: 170px;
-	bottom: 1px;
+.flow1 .hiddentext {
+    position: relative;
+    right: 170px;
+    bottom: 1px;
 }
-.flow1 img{
-	width: 30%;
-	height: auto;
-	box-shadow: none;
-	border: none;
-	padding-top: 1%;
+.flow1 img {
+    width: 30%;
+    height: auto;
+    box-shadow: none;
+    border: none;
+    padding-top: 1%;
 }
-.flow2 .hiddentext{
-	position: relative;
-	right: 50px;
-	bottom: 1px;
+.flow2 .hiddentext {
+    position: relative;
+    right: 50px;
+    bottom: 1px;
 }
-.flow2 img{
-	width: 80%;
-	height: auto;
+.flow2 img {
+    width: 80%;
+    height: auto;
 }
-.flow3{
-	text-align: right;
+.flow3 {
+    text-align: right;
 }
-.flow3 .hiddentext{
-	position: relative;
-	left: 55px;
-	bottom: 1px;
+.flow3 .hiddentext {
+    position: relative;
+    left: 55px;
+    bottom: 1px;
 }
-.flow3 img{
-	width: 80%;
-	height: auto;
-	box-shadow: none;
-	border: none;
+.flow3 img {
+    width: 80%;
+    height: auto;
+    box-shadow: none;
+    border: none;
 }
-
-.flow4{
-	margin-top: 11.8%;
+.flow4 {
+    margin-top: 11.8%;
 }
-.flow4 img{
-	width: 100%;
-	height: auto;
+.flow4 img {
+    width: 100%;
+    height: auto;
 }
-
-.flow5{
-	margin-top: 5%;
-	margin-left: 1%;
+.flow5 {
+    margin-top: 5%;
+    margin-left: 1%;
 }
-.flow5 img{
-	width: 100%;
-	height: auto;
+.flow5 img {
+    width: 100%;
+    height: auto;
 }
-
 /* hover på billeder i projekter*/
 .hiddentext {
-  background-color: #00818B;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    background-color: #00818B;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
-
-.flow1 img,.flow2 img, .flow3 img, .flow4 img, .flow5 img{
-	opacity: 1;
-	transition: .5s ease;
-	backface-visibility: hidden;
+.flow1 img, .flow2 img, .flow3 img, .flow4 img, .flow5 img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 .flow1:hover img, .flow2:hover img, .flow3:hover img, .flow4:hover img, .flow5:hover img {
-  opacity: 0.6;
+    opacity: 0.6;
 }
-
-.flow1:hover .middle, .flow2:hover .middle, .flow3:hover .middle, .flow4:hover .middle, .flow5:hover .middle{
-  opacity: 1;
+.flow1:hover .middle, .flow2:hover .middle, .flow3:hover .middle, .flow4:hover .middle, .flow5:hover .middle {
+    opacity: 1;
 }
 /*Flow sider style*/
 /*link og dropdowns med inspiration fra https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
-.overskriftlink, .dropknap{
-	margin-top: 5%;
-	margin-right: 1%;
-	border-radius: 4px;
-	background: #959595;
-	opacity: 0.85;
-	cursor: pointer;
+.overskriftlink, .dropknap {
+    margin-top: 5%;
+    margin-right: 1%;
+    border-radius: 4px;
+    background: #959595;
+    opacity: 0.85;
+    cursor: pointer;
 }
-
-.overskriftlink:hover, .dropknap:hover{
-	background: #959595;
-	opacity: 1;	
+.overskriftlink:hover, .dropknap:hover {
+    background: #959595;
+    opacity: 1;
 }
-.overskriftlink h1, .dropknap h1{
-	font-size: 1em;
+.overskriftlink h1, .dropknap h1 {
+    font-size: 1em;
 }
-.overskriftlink a, .dropknap a{
-	text-decoration: none;
-	color: black;
+.overskriftlink a, .dropknap a {
+    text-decoration: none;
+    color: black;
 }
 .dropdownmenu {
     position: relative;
     display: inline-block;
-	width: 100%;
+    width: 100%;
 }
-
 .dropdownindhold {
     display: none;
     position: absolute;
     background-color: #959595;
-	border-radius: 4px;
+    border-radius: 4px;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
 .dropdownindhold a {
     color: black;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
 }
-
-.dropdownindhold a:hover {background-color: #f1f1f1}
-
+.dropdownindhold a:hover {
+    background-color: #f1f1f1
+}
 .dropdownmenu:hover .dropdownindhold {
     display: block;
 }
-
 .dropdownmenu:hover .dropknap {
     background-color: #959595;
 }
-
-.menulinje{
-	text-align: center;
+.menulinje {
+    text-align: center;
 }
-.lillemenulinje{
-	display: none;
+.lillemenulinje {
+    display: none;
 }
-.billedtekst h1, .billedtekst h2{
-	text-align: left;
-	margin-left: 5%;
-	
+.billedtekst h1, .billedtekst h2 {
+    text-align: left;
+    margin-left: 5%;
 }
-.flowtekst{
-	margin-top: 6.5%;
+.flowtekst {
+    margin-top: 6.5%;
 }
-.flowtekst4{
-	margin-top: 12%;
+.flowtekst4 {
+    margin-top: 12%;
 }
-.flowtekst p{
-	padding: 0 5%;
-	text-align: justify;
+.flowtekst p {
+    padding: 0 5%;
+    text-align: justify;
 }
-.flowtekst a, .lilleflowtekst a{
-	text-decoration: none;
-	color: #006169;
+.flowtekst a, .lilleflowtekst a {
+    text-decoration: none;
+    color: #006169;
 }
-.row{
-	margin-top: 2%;
-	text-align: center;
+.row {
+    margin-top: 2%;
+    text-align: center;
 }
-.row p{
-	padding: 0 5%;
-	text-align: justify;
+.row p {
+    padding: 0 5%;
+    text-align: justify;
 }
-
 /*Arrows med inspiration fra https://codepen.io/carstenmeyer/pen/rraoAp*/
 .pic {
-  	margin: 2% 5%;/* demo spacing */
-  	display: inline-block;
-  	vertical-align: middle;
-  	width: 0; 
-  	height: 0; 
+    margin: 2% 5%;/* demo spacing */
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
 }
-.rightarrow{
-	text-align: right;
+.rightarrow {
+    text-align: right;
 }
 .arrow-left {
-  	border-top: 18px solid transparent;
-  	border-bottom: 18px solid transparent;
-  	border-right: 18px solid #737373;
-	cursor: pointer;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid #737373;
+    cursor: pointer;
 }
 .arrow-right {
-  	border-top: 18px solid transparent;
-  	border-bottom: 18px solid transparent;
-  	border-left: 18px solid #737373;
-	color: black;
-	cursor: pointer;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 18px solid #737373;
+    color: black;
+    cursor: pointer;
 }
-.previous, .next{
-	text-decoration: none;
-	color: black;
-	cursor: pointer;
+.previous, .next {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
-.previous:hover, .next:hover{
-	color: #959595;
+.previous:hover, .next:hover {
+    color: #959595;
 }
 /*flow1*/
-.flow1underside{
-	text-align: center;
+.flow1underside {
+    text-align: center;
 }
-.flow1underside img{
-	border: none;
-	box-shadow: none;
-	width: 90%;
+.flow1underside img {
+    border: none;
+    box-shadow: none;
+    width: 90%;
 }
-.flow1billede1 img, .flow1billede2 img, .flow1billede3 img, .flow1billede4 img{
-	width: 90%;
+.flow1billede1 img, .flow1billede2 img, .flow1billede3 img, .flow1billede4 img {
+    width: 90%;
 }
-
 /*flow2*/
-.flow2underside{
-	text-align: center;
-	
+.flow2underside {
+    text-align: center;
 }
-.flow2underside img{
-	width: 90%;
+.flow2underside img {
+    width: 90%;
 }
-
-.flow2skitse{
-	text-align: center;
+.flow2skitse {
+    text-align: center;
 }
-.flow2skitse img{
-	width: 50%;
+.flow2skitse img {
+    width: 50%;
 }
-.flow2folderstructure img{
-	width: 30%;
+.flow2folderstructure img {
+    width: 30%;
 }
-.flow2logoundervejs img{
-	width: 80%;
+.flow2logoundervejs img {
+    width: 80%;
 }
-.flow2logo img{
-	width: 80%;
+.flow2logo img {
+    width: 80%;
 }
-.ideas img{
-	width: 50%;
+.ideas img {
+    width: 50%;
 }
-.pen img{
-	width: 50%;
-	box-shadow: none;
-	border: none;
+.pen img {
+    width: 50%;
+    box-shadow: none;
+    border: none;
 }
-.projectpage{
-	padding: 5%;
+.projectpage {
+    padding: 5%;
 }
-.projectpage img{
-	width: 100%;
+.projectpage img {
+    width: 100%;
 }
-
 /*Flow 3*/
 /*dropdown med inspiration fra https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
-.flow3underside{
-	text-align: center;
+.flow3underside {
+    text-align: center;
 }
-.flow3underside img{
-	width: 90%;
-	border: none;
-	box-shadow: none;
+.flow3underside img {
+    width: 90%;
+    border: none;
+    box-shadow: none;
 }
-.flow3persona img{
-	width: 70%;
+.flow3persona img {
+    width: 70%;
 }
-img{
-	height: auto;
+img {
+    height: auto;
 }
-.flow3wire img{
-	width: 80%;
+.flow3wire img {
+    width: 80%;
 }
-.flow3brainstoming img{
-	width: 90%;
+.flow3brainstoming img {
+    width: 90%;
 }
-.flow3ikoner1 img{
-	width: 70%;
+.flow3ikoner1 img {
+    width: 70%;
 }
-.flow3ikonideer img{
-	width: 70%;
+.flow3ikonideer img {
+    width: 70%;
 }
-.flow3ikoner2 img{
-	width: 90%;
-	margin-top: 40%;
+.flow3ikoner2 img {
+    width: 90%;
+    margin-top: 40%;
 }
-.flow3laginddeling img{
-	width: 70%;
-	margin-top: 10%;
+.flow3laginddeling img {
+    width: 70%;
+    margin-top: 10%;
 }
-.ipadproto img, .iphoneproto img{
-	width: 80%;
+.ipadproto img, .iphoneproto img {
+    width: 80%;
 }
-.farve img{
-	width: 50%;
+.farve img {
+    width: 50%;
 }
 /*Flow4 style*/
-.flow4brainstorming img{
-	width: 90%;
+.flow4brainstorming img {
+    width: 90%;
 }
-.flow4wire img{
-	width: 80%;
+.flow4wire img {
+    width: 80%;
 }
-.tablet img{
-	width: 80%;
-	margin-top: 5%;
+.tablet img {
+    width: 80%;
+    margin-top: 5%;
 }
-.sweetbotikon img{
-	width: 95%;
-	margin: 1%;
+.sweetbotikon img {
+    width: 95%;
+    margin: 1%;
 }
-.flow4hotbotlogo img{
-	width: 90%;
-	box-shadow: none;
-	border: none;
-	margin: 5% 0;
+.flow4hotbotlogo img {
+    width: 90%;
+    box-shadow: none;
+    border: none;
+    margin: 5% 0;
 }
 /*Contact style*/
-.contact-form{
-	text-align: center;
+.contact-form {
+    text-align: center;
 }
-.contact-title{
-	text-align: center;
-	margin-top: 2%;
+.contact-title {
+    text-align: center;
+    margin-top: 2%;
 }
-.contact-titel h1{
-	transition: all 1s ease-in-out;
+.contact-titel h1 {
+    transition: all 1s ease-in-out;
 }
-
-.form-control{
-	width: 50%;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid #1a8089;
-	color: #1a8089;
-	font-family: 'Varela Round', sans-serif;
-	
+.form-control {
+    width: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1a8089;
+    color: #1a8089;
+    font-family: 'Varela Round', sans-serif;
 }
-form{
-	transition: all 1s ease-in-out;
-	position: relative;
-	margin-bottom: 5%;
+form {
+    transition: all 1s ease-in-out;
+    position: relative;
+    margin-bottom: 5%;
 }
-
-input{
-	height: 40px;
+input {
+    height: 40px;
 }
-form .submit{
-	background: #1a8089;
-	border-color: transparent;
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	height: 50px;
-	margin-top: 20px;
-}
-@media handheld, only screen and (max-width: 768px){
-.containerforside{
-	vw: 748px;
-	}
-.overskriftprojekter{
-	display: flex;
-	text-align: center;
-	margin-top: 5%;
-}
-.overskriftprojekter h1{
-	font-size: 3em;
-}
-#footer{
-	margin-left: 0;
-	margin-right: 5%;
-	margin-top: 5%;
-}
-	
-.lillemenulinje{
-	display: flex;
-	text-align: center;
-}
-.menulinje{
-	display: none;	
-	}
-.flowtekst{
-	display: none;
-	}
-
+form .submit {
+    background: #1a8089;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
 }
 
-@media handheld, only screen and (max-width: 375px){
-	
-.overskriftprojekter{
-	display: flex;
-	text-align: center;
-	margin-top: 5%;
+@media handheld, only screen and (max-width: 768px) {
+.containerforside {
+    vw: 748px;
 }
-.overskriftprojekter h1{
-	font-size: 1.75em;
+.overskriftprojekter {
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
 }
-.flow1, .flow2, .flow3, .flow4, .flow5{
-	position: relative;
+.overskriftprojekter h1 {
+    font-size: 3em;
 }
-
-.flow1{
-		text-align: center;
-	}
-.flow1 img{
-	width: 50%;
-	height: auto;
-	box-shadow: none;
-	border: none;
-	padding-top: 1%;
+#footer {
+    margin-left: 0;
+    margin-right: 5%;
+    margin-top: 5%;
 }
-
-.flow2 img{
-	width: 100%;
-	height: auto;
+.lillemenulinje {
+    display: flex;
+    text-align: center;
 }
-.flow3{
-	text-align: center;
+.menulinje {
+    display: none;
 }
-.flow3 img{
-	width: 100%;
-	height: auto;
-	box-shadow: none;
-	border: none;
+.flowtekst {
+    display: none;
+}
 }
 
-
-.flow4 img{
-	width: 100%;
-	height: auto;
+@media handheld, only screen and (max-width: 375px) {
+.overskriftprojekter {
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
 }
-
-.flow5 img{
-	width: 100%;
-	height: auto;
+.overskriftprojekter h1 {
+    font-size: 1.75em;
 }
-img{
-	width: 100%;
-	height: auto;
-	}
+.flow1, .flow2, .flow3, .flow4, .flow5 {
+    position: relative;
+}
+.flow1 {
+    text-align: center;
+}
+.flow1 img {
+    width: 50%;
+    height: auto;
+    box-shadow: none;
+    border: none;
+    padding-top: 1%;
+}
+.flow2 img {
+    width: 100%;
+    height: auto;
+}
+.flow3 {
+    text-align: center;
+}
+.flow3 img {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    border: none;
+}
+.flow4 img {
+    width: 100%;
+    height: auto;
+}
+.flow5 img {
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
 }

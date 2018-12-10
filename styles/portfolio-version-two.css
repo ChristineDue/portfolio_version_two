@@ -44,10 +44,10 @@ img {
 }
 #navigation a:hover {
     cursor: pointer;
-    color: #1186B0;
+    color: #00CDDB;
 }
 #navigation .currentpage {
-    color: #00818B;
+    color: #00818A;
     border-bottom: 1px solid #00818B;
 }
 #footer li {
@@ -318,12 +318,15 @@ opacity: 0
     cursor: pointer;
 }
 .overskriftlink:hover, .dropknap:hover {
-    background: #959595;
     opacity: 1;
 }
 .overskriftlink h1, .dropknap h1 {
     font-size: 1em;
 	border: 1px solid black;
+	border-radius: 4px;
+}
+.overskriftlink h1:hover{
+	background: #00818A;
 }
 .overskriftlink a, .dropknap a {
     text-decoration: none;
@@ -353,9 +356,6 @@ opacity: 0
 }
 .dropdownmenu:hover .dropdownindhold {
     display: block;
-}
-.dropdownmenu:hover .dropknap {
-    background-color: #959595;
 }
 .menulinje {
     text-align: center;
@@ -485,7 +485,7 @@ opacity: 0
 }
 .flowlink a{
 	cursor: pointer;
-    color: #006169;
+    color: #00818A;
 	text-decoration: none;
 }
 img {

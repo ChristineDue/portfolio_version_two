@@ -327,6 +327,7 @@ opacity: 0
 }
 .overskriftlink h1:hover{
 	background: #00818A;
+	color: white;
 }
 .overskriftlink a, .dropknap a {
     text-decoration: none;
@@ -340,26 +341,26 @@ opacity: 0
 .dropdownindhold {
     display: none;
     position: absolute;
-    background-color: #959595;
+	background: #00818A;
     border-radius: 4px;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdownindhold a {
-    color: black;
+    color: white;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
 }
 .dropdownindhold a:hover {
-    background-color: #f1f1f1
+    background-color: #00818A;
+	color: black;
 }
 .dropdownmenu:hover .dropdownindhold {
     display: block;
 }
 .menulinje {
     text-align: center;
-	margin-top: 7%;
 }
 .lillemenulinje {
     display: none;
@@ -559,6 +560,7 @@ img {
 	height: auto;
 }
 /*Contact style*/
+
 .contact-form {
     text-align: center;
 }
@@ -596,7 +598,13 @@ form .submit {
     height: 50px;
     margin-top: 20px;
 }
-
+/*About style*/
+.aboutpic img{
+	width: 90%;
+	box-shadow: none;
+	border: none;
+	filter: grayscale(50%);
+}
 @media handheld, only screen and (max-width: 1193px) {
 .containerforside {
     vw: 748px;

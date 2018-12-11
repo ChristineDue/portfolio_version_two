@@ -614,9 +614,17 @@ form .submit {
     margin-right: 5%;
     margin-top: 5%;
 }
+.flow3, .flow2, .flow1{
+	text-align: center;	
+} 
 .lilleflowtekst{
 	display: flex;
 }
+.lilleflowtekst p{
+	font-weight: 700;
+	text-align: left;
+	margin-right: 5%;
+	}
 .lillemenulinje {
     display: flex;
     text-align: center;

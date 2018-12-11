@@ -597,9 +597,16 @@ form .submit {
     margin-top: 20px;
 }
 
-@media handheld, only screen and (max-width: 768px) {
+@media handheld, only screen and (max-width: 1193px) {
 .containerforside {
     vw: 748px;
+}
+.logo img{
+	top: 5%;
+	width: 80%;	
+}
+#navigation a{
+	font-size: 1.20em;	
 }
 .overskriftprojekter {
     display: flex;
@@ -635,9 +642,44 @@ form .submit {
 .flowtekst {
     display: none;
 }
+form .submit {
+    font-size: 15px;
 }
-
+.contact-title h1{
+	font-size: 1.2em;
+}
+}
+@media handheld, only screen and (max-width: 1180px) {
+#navigation a{
+	font-size: 1.10em;	
+}
+}
+@media handheld, only screen and (max-width: 1086px) {
+#navigation a{
+	font-size: 1em;	
+}
+}
+@media handheld, only screen and (max-width: 992px) {
+#navigation a{
+	font-size: 0.9em;	
+}
+}
+@media handheld, only screen and (max-width: 899px) {
+#navigation a{
+	font-size: 0.8em;	
+}
+}
+@media handheld, only screen and (max-width: 805px) {
+#navigation a{
+	font-size: 0.7em;	
+}
+}
 @media handheld, only screen and (max-width: 375px) {
+	
+.logo img{
+	margin-top: 15%;
+	width: 80%;
+}
 .overskriftprojekter {
     display: flex;
     text-align: center;
@@ -683,5 +725,8 @@ form .submit {
 img {
     width: 100%;
     height: auto;
+}
+.form-control {
+    width: 100%;
 }
 }

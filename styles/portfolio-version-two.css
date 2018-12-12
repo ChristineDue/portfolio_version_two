@@ -3,10 +3,9 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-   /* background-color: #006169;*/
 }
-/*Style på alle sider*/
 
+/*Style på alle sider*/
 img {
     border: 1px solid #858585;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
@@ -44,7 +43,7 @@ img {
 }
 #navigation a:hover {
     cursor: pointer;
-    color: #00CDDB;
+    color: #00818A;
 }
 #navigation .currentpage {
     color: #00818A;
@@ -349,6 +348,7 @@ opacity: 0
 .dropdownindhold a {
     color: white;
     padding: 5px 5px;
+    border-radius: 4px;
     text-decoration: none;
     display: block;
 }
@@ -419,6 +419,12 @@ opacity: 0
 }
 .previous:hover, .next:hover {
     color: #959595;
+}
+.largearrows{
+	display: flex;
+}
+.smallarrows{
+	display: none;
 }
 /*flow1*/
 .flow1underside {
@@ -525,6 +531,7 @@ img {
 .sitemap img{
 	width: 90%;
 	height: auto;
+	margin-right: 100%;
 }
 .appikoner img{
 	width: 80%;
@@ -681,9 +688,20 @@ form .submit {
 #navigation a{
 	font-size: 0.7em;	
 }
+.flow5 img{
+	width: 95%;
+	}
+	.projekter{
+	text-align: center;
+	}
 }
 @media handheld, only screen and (max-width: 375px) {
 	
+.containerforside {
+    box-shadow: none;
+    background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);
+    border: none;
+}
 .logo img{
 	margin-top: 15%;
 	width: 80%;
@@ -736,5 +754,11 @@ img {
 }
 .form-control {
     width: 100%;
+}
+.largearrows{		
+	display: none;
+}
+.smallarrows{		
+	display: flex;
 }
 }

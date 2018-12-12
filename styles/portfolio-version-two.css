@@ -39,11 +39,13 @@ img {
     text-decoration: none;
     color: black;
     font-size: 1.20em;
+	transition: all 500ms;
     /*font-weight: 600;*/
 }
 #navigation a:hover {
     cursor: pointer;
     color: #00818A;
+	font-size: 20px;
 }
 #navigation .currentpage {
     color: #00818A;

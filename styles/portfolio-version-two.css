@@ -127,7 +127,6 @@ li {
 }
 .slide1 {
     background: url()no-repeat center;
-    background-size: cover;
     animation: fade 8s infinite;
     -webkit-animation: fade 8s infinite;
 }
@@ -159,10 +158,10 @@ li {
  0% {
 opacity:1
 }
- 33.333% {
+ 30% {
 opacity: 0
 }
- 66.666% {
+ 80% {
 opacity: 0
 }
  100% {
@@ -173,10 +172,10 @@ opacity: 1
  0% {
 opacity:0
 }
- 33.333% {
+ 20% {
 opacity: 1
 }
- 66.666% {
+ 80% {
 opacity: 0
 }
  100% {
@@ -187,24 +186,24 @@ opacity: 0
  0% {
 opacity:0
 }
- 33.333% {
+ 0% {
 opacity: 0
 }
- 66.666% {
+ 0% {
 opacity: 1
 }
  100% {
 opacity: 0
 }
 }
-@keyframes fade4 {
+/*@keyframes fade4 {
  0% {
 opacity:0
 }
- 33.333% {
+ 0% {
 opacity: 1
 }
- 66.666% {
+ 0% {
 opacity: 0
 }
  100% {
@@ -224,7 +223,7 @@ opacity: 1
  100% {
 opacity: 0
 }
-}
+}*/
 /*Projekter style*/
 /*hover effekt med inspiration fra https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
 .overskriftprojekter {

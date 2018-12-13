@@ -44,11 +44,11 @@ img {
 }
 #navigation a:hover {
     cursor: pointer;
-    color: #00818A;
+    color: #00818B;
 	font-size: 20px;
 }
 #navigation .currentpage {
-    color: #00818A;
+    color: #00818B;
     border-bottom: 1px solid #00818B;
 }
 #footer li {
@@ -334,7 +334,7 @@ opacity: 0
 	border-radius: 4px;
 }
 .overskriftlink h1:hover{
-	background: #00818A;
+	background: #00818B;
 	color: white;
 }
 .overskriftlink a, .dropknap a {
@@ -349,7 +349,7 @@ opacity: 0
 .dropdownindhold {
     display: none;
     position: absolute;
-	background: #00818A;
+	background: #00818B;
     border-radius: 4px;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -362,7 +362,7 @@ opacity: 0
     display: block;
 }
 .dropdownindhold a:hover {
-    background-color: #00818A;
+    background-color: #00818B;
 	color: black;
 }
 .dropdownmenu:hover .dropdownindhold {
@@ -501,7 +501,7 @@ opacity: 0
 }
 .flowlink a{
 	cursor: pointer;
-    color: #00818A;
+    color: #00818B;
 	text-decoration: none;
 }
 img {
@@ -704,8 +704,7 @@ form .submit {
 	text-align: center;
 	}
 }
-@media handheld, only screen and (max-width: 375px) {
-	
+@media handheld, only screen and (max-width: 375px) {	
 .containerforside {
     box-shadow: none;
     background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);

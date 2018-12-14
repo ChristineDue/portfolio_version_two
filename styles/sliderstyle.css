@@ -1,14 +1,18 @@
 .slideshow {
-    max-width: 200%;
-    height: 500px;
-    margin: 20px auto;
+    max-width: 100%;
+    height: 450px;
+    margin: 2% auto;
+	margin-right: 3%;
     position: relative;
-	border: 1px solid red;
+}
+.boxomslide{
+	text-align: center;
 }
 .slide1, .slide2, .slide3, .slide4, .slide5 {
     position: absolute;
     width: 100%;
     height: 100%;
+	text-align: center;
 }
 .slide1 {
     background: url(../images/portfolio-new/slideshow/sweetbot.png)no-repeat center;
@@ -301,47 +305,312 @@ opacity: 0
 }
 }
 .slideknap {
-    font-size: 20px;
-    padding: 5px;
-    background: blue;
-    opacity: 0.2px;
-    width: 80px;
-    margin-left: 20px;
-    margin-top: 120px;
+	display: flex;
+    font-size: 1.20em;
+    border-radius: 4px;
+    background: #00818B;
+    opacity: 0.7;
+    width: 20%;
+	padding: 0.5%;
+    margin-left: 5%;
+    margin-top: 55%;
+}
+.slide1 a,.slide2 a,.slide2 a,.slide3 a,.slide4 a, .slide5 a{
+	text-decoration: none;
+	color: black;
 }
 .bullets {
     margin: auto;
-    width: 100px;
-    border: 1px solid black;
+    width: 20%;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
     justify-content: space-between;
 }
+.bullets div{
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
 .bullet1 {
-    border: 1px solid blue;
-    background: red;
-    animation: fade1 25s infinite;
-    -webkit-animation: fade1 25s infinite;
+    animation: bulletfade1 25s infinite;
+    -webkit-animation: bulletfade1 25s infinite;
 }
 .bullet2 {
-    background: red;
-    animation: fade2 25s infinite;
-    -webkit-animation: fade2 25s infinite;
+    animation: bulletfade2 25s infinite;
+    -webkit-animation: bulletfade2 25s infinite;
 }
 .bullet3 {
-    background: red;
-    animation: fade3 25s infinite;
-    -webkit-animation: fade3 25s infinite;
+    animation: bulletfade3 25s infinite;
+    -webkit-animation: bulletfade3 25s infinite;
 }
 .bullet4 {
-    background: red;
-    animation: fade4 25s infinite;
-    -webkit-animation: fade4 25s infinite;
+    animation: bulletfade4 25s infinite;
+    -webkit-animation: bulletfade4 25s infinite;
 }
 .bullet5 {
-    background: red;
-    animation: fade5 25s infinite;
-    -webkit-animation: fade5 25s infinite;
+    animation: bulletfade5 25s infinite;
+    -webkit-animation: bulletfade5 25s infinite;
+}
+ @-webkit-keyframes bulletfade1 {
+ 0% {
+background: #00818B;
+}
+ 17% {
+background: #00818B;
+}
+ 25% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: #00818B;
+}
+}
+ @keyframes bulletfade1 {
+ 0% {
+background: #00818B;
+}
+ 17% {
+background: #00818B;
+}
+ 25% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: #00818B;
+}
+}
+ @-webkit-keyframes bulletfade2 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: #00818B;
+}
+ 42% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+@keyframes bulletfade2 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: #00818B;
+}
+ 42% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+ @-webkit-keyframes bulletfade3 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: #00818B;
+}
+ 58% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+@keyframes bulletfade3 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: #00818B;
+}
+ 58% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+ @-webkit-keyframes bulletfade4 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: #00818B;
+}
+ 75% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+@keyframes bulletfade4 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: #00818B;
+}
+ 75% {
+background: none;
+}
+ 84% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+@-webkit-keyframes bulletfade5 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: #00818B;
+}
+ 92% {
+background: none;
+}
+ 100% {
+background: none;
+}
+}
+@keyframes bulletfade5 {
+ 0% {
+background: none;
+}
+ 17% {
+background: none;
+}
+ 34% {
+background: none;
+}
+ 50% {
+background: none;
+}
+ 67% {
+background: none;
+}
+ 84% {
+background: #00818B;
+}
+ 92% {
+background: none;
+}
+ 100% {
+background: none;
+}
 }

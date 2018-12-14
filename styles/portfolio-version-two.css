@@ -508,7 +508,6 @@ form .submit {
     font-size: 3em;
 }
 #footer {
-    margin-left: 0;
     margin-right: 5%;
     margin-top: 5%;
 }
@@ -578,6 +577,22 @@ form .submit {
 .projekter {
     text-align: center;
 }
+.slideknap {
+    width: 16%;
+	padding: 1%;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+.bullets {
+    margin: auto;
+    width: 20%;
+	margin-left: 40%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
 }
 
 @media handheld, only screen and (max-width: 375px) {
@@ -644,5 +659,8 @@ img {
 }
 .smallarrows {
     display: flex;
+}
+#footer {
+	margin-left: 0;
 }
 }

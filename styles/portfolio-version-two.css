@@ -606,10 +606,6 @@ form .submit {
     background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);
     border: none;
 }
-.SoMeimages {
-    position: relative;
-    top: 5%;
-}
 .logo img {
     margin-top: 15%;
     width: 80%;
@@ -672,6 +668,10 @@ img {
 #footer {
     margin-left: 0;
 }
+.SoMeimages {
+    position: relative;
+    top: 5%;
+}
 nav .menuliste {
     text-align: right;
     padding: 2%;
@@ -680,7 +680,7 @@ nav .menuliste {
     margin-right: 3%;
 }
 .menupunkt1 {
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .navi a {
     text-decoration: none;

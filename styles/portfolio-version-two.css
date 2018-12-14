@@ -49,6 +49,9 @@ img {
     color: #00818B;
     border-bottom: 1px solid #00818B;
 }
+nav{
+	display: none;
+}
 #footer li {
     list-style-type: none;
     font-size: 0.80em;
@@ -73,7 +76,7 @@ li {
     background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);
     border: 1px solid black;
 }
-.forsidebillede{
+.forsidebillede {
     text-align: center;
 }
 .forsidebillede img {
@@ -82,7 +85,6 @@ li {
     box-shadow: none;
     border: none;
 }
-
 .tekst {
     text-align: center;
 }
@@ -546,13 +548,13 @@ form .submit {
 }
 }
 
-@media handheld, only screen and (max-width: 805px){
+@media handheld, only screen and (max-width: 805px) {
 #navigation a {
     font-size: 0.7em;
 }
 }
 
-@media handheld, only screen and (max-width: 768px){ 
+@media handheld, only screen and (max-width: 768px) {
 .lilleflowtekst {
     display: flex;
 }
@@ -579,14 +581,14 @@ form .submit {
 }
 .slideknap {
     width: 16%;
-	padding: 1%;
+    padding: 1%;
     margin-left: 10%;
     margin-top: 50%;
 }
 .bullets {
     margin: auto;
     width: 20%;
-	margin-left: 40%;
+    margin-left: 40%;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -596,10 +598,17 @@ form .submit {
 }
 
 @media handheld, only screen and (max-width: 375px) {
+	nav{
+		display: flex;
+	}
 .containerforside {
     box-shadow: none;
     background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);
     border: none;
+}
+.SoMeimages {
+    position: relative;
+    top: 10%;
 }
 .logo img {
     margin-top: 15%;
@@ -661,6 +670,51 @@ img {
     display: flex;
 }
 #footer {
-	margin-left: 0;
+    margin-left: 0;
+}
+nav .menuliste {
+    text-align: right;
+    padding: 2%;
+    list-style: none;
+    font-size: 2em;
+    margin-right: 3%;
+}
+.menupunkt1 {
+    margin-top: 40%;
+}
+.navi a {
+    text-decoration: none;
+    color: black;
+}
+.navi .menu {
+    width: 378px;
+    height: 100%;
+    border: 1px solid #444;
+    background: white;
+    position: fixed;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+    right: 0;
+	z-index: 10;
+}
+.menuliste .active {
+    color: #1E7C85;
+}
+.navi input#toggle {
+    display: none;
+}
+.navi input#toggle + label {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: url(../images/portfolio-new/newportfolio/1x/menubar2.png) center right no-repeat;
+    position: fixed;
+    right: 6%;
+    top: 81%;
+    cursor: pointer;
+    z-index: 11;
+}
+input#toggle:checked ~ .menu {
+    top: -800px;
 }
 }

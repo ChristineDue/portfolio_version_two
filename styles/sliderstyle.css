@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
 	text-align: center;
+	z-index: 0;
 }
 .slide1 {
     background: url(../images/portfolio-new/slideshow/sweetbot.png)no-repeat center;
@@ -44,6 +45,7 @@
     animation: fade5 25s infinite;
     -webkit-animation: fade5 25s infinite;
 }
+
  @-webkit-keyframes fade1 {
  0% {
 opacity:1

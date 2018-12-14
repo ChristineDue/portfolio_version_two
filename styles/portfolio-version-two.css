@@ -444,6 +444,33 @@ img {
     width: 90%;
     height: auto;
 }
+/*flow 5 style*/
+.flow5sitemap img{
+	width: 90%;
+	box-shadow: none;
+	border: none;
+}
+.flow5flowchart{
+	text-align: center;
+	margin-top: 3%;
+}
+.flow5flowchart img{
+	width: 20%;
+	box-shadow: none;
+	border: none;
+}
+.flowafsnit{
+	margin-top: 11%;
+}
+.projektstyrring img{
+	width: 90%;
+	
+	box-shadow: none;
+	border: none;
+}
+.flow5farver{
+	margin-top: 8%;
+}
 /*Contact style*/
 
 .contact-form {

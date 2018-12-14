@@ -154,12 +154,13 @@ li {
     height: auto;
 }
 .flow5 {
-    margin-top: 5%;
+    margin-top: 4.8%;
     margin-left: 1%;
 }
 .flow5 img {
     width: 100%;
     height: auto;
+	box-shadow: none;
 }
 /* hover på billeder i projekter*/
 .hiddentext {
@@ -672,6 +673,7 @@ img {
     position: relative;
     top: 5%;
 }
+/*Burgermenu med inspiration fra https://www.competa.com/blog/responsive-menu-with-only-css3-no-javascript/?fbclid=IwAR1DngSxzBtz-mh9qsk3_S1ObfFtJnVxD1RbSpHOEkSLTtyiqmpgLt_fIu0*/	
 nav .menuliste {
     text-align: right;
     padding: 2%;

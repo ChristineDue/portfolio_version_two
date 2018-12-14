@@ -608,7 +608,7 @@ form .submit {
 }
 .SoMeimages {
     position: relative;
-    top: 10%;
+    top: 5%;
 }
 .logo img {
     margin-top: 15%;
@@ -680,7 +680,7 @@ nav .menuliste {
     margin-right: 3%;
 }
 .menupunkt1 {
-    margin-top: 40%;
+    margin-top: 30%;
 }
 .navi a {
     text-decoration: none;
@@ -710,7 +710,7 @@ nav .menuliste {
     background: url(../images/portfolio-new/newportfolio/1x/menubar2.png) center right no-repeat;
     position: fixed;
     right: 6%;
-    top: 70%;
+    top: 81%;
     cursor: pointer;
     z-index: 11;
 }

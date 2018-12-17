@@ -2,9 +2,7 @@
 /* CSS Document */
 
 body {
-    /*font-family: 'Varela Round', sans-serif;*/
-	/*font-family: 'Dosis', sans-serif;*/
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 /*Style på alle sider*/
 img {
@@ -486,6 +484,9 @@ img {
 }
 .lilleflowchart4{
 	display: none;
+}
+.portfoliopic img{
+	width: 90%;
 }
 /*Contact style*/
 

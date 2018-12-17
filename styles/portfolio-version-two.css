@@ -528,10 +528,15 @@ form .submit {
 }
 /*About style*/
 .aboutpic img {
-    width: 90%;
+    width: 50%;
     box-shadow: none;
     border: none;
-    filter: grayscale(50%);
+}
+.basketball1 img{
+	width: 70%;
+}
+.basketball2 img{
+	width: 90%;
 }
 
 @media handheld, only screen and (max-width: 1193px) {
@@ -746,8 +751,12 @@ nav .menuliste {
     text-align: right;
     padding: 2%;
     list-style: none;
-    font-size: 2em;
+    font-size: 1.2aboem;
     margin-right: 3%;
+}
+.menuliste h2{
+	font-weight: 400;
+	display: inline;
 }
 .menupunkt1 {
     margin-top: 20%;

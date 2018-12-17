@@ -2,7 +2,9 @@
 /* CSS Document */
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: 'Nunito Sans', sans-serif;
 }
 /*Style på alle sider*/
 img {
@@ -420,8 +422,10 @@ img {
     width: 80%;
 }
 /*Flow4 style*/
-.flow4brainstorming img {
+.flow4projektstyrring img {
     width: 90%;
+	box-shadow: none;
+	border: none;
 }
 .flowchart4 img {
     width: 60%;
@@ -473,6 +477,15 @@ img {
 }
 .ganttkort img{
 	width: 90%;
+}
+.lilleprojektstyrring{
+	display: none;
+}
+.lilleflow4projektstyrring{
+	display: none;
+}
+.lilleflowchart4{
+	display: none;
 }
 /*Contact style*/
 
@@ -629,9 +642,9 @@ form .submit {
 }
 
 @media handheld, only screen and (max-width: 375px) {
-	nav{
-		display: flex;
-	}
+nav{
+	display: flex;
+}
 .containerforside {
     box-shadow: none;
     background: linear-gradient(to left, white 0%, white 33%, #E4E2E2 33%, #E4E2E2 100%);
@@ -686,6 +699,31 @@ form .submit {
 img {
     width: 100%;
     height: auto;
+}
+.lilleprojektstyrring{
+	display: block;
+}
+.lilleprojektstyrring img{
+	width: 100%;
+	height: auto;
+	box-shadow: none;
+	border: none;
+}
+.lilleflow4projektstyrring{
+	display: block;
+}
+.lilleflow4projektstyrring img{
+	width: 100%;
+	height: auto;
+	border: none;
+	box-shadow: none;
+}
+.lilleflowchart4{
+	display: block;
+}
+.lilleflowchart4 img{
+	width: 60%;
+	height: auto;
 }
 .form-control {
     width: 100%;

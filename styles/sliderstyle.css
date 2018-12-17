@@ -15,6 +15,35 @@
 	text-align: center;
 	z-index: 0;
 }
+
+.slideknapdiv1, .slideknapdiv2, .slideknapdiv3, .slideknapdiv4, .slideknapdiv5{
+	position: absolute;
+    width: 30%;
+    height: auto;
+	text-align: center;
+	z-index: 1;
+}
+.slideknapdiv1{
+	animation: fade1slideknap 25s infinite;
+    -webkit-animation: fade1slideknap 25s infinite;
+}
+.slideknapdiv2{
+	animation: fade2slideknap 25s infinite;
+    -webkit-animation: fade2slideknap 25s infinite;
+}
+.slideknapdiv3{
+	animation: fade3slideknap 25s infinite;
+    -webkit-animation: fade3slideknap 25s infinite;
+}
+.slideknapdiv4{
+	animation: fade4slideknap 25s infinite;
+    -webkit-animation: fade4slideknap 25s infinite;
+}
+.slideknapdiv5{
+	animation: fade5slideknap 25s infinite;
+    -webkit-animation: fade5slideknap 25s infinite;
+	border:1px solid red;
+}
 .slide1 {
     background: url(../images/portfolio-new/slideshow/sweetbot.png)no-repeat center;
     background-size: contain;
@@ -46,7 +75,303 @@
     -webkit-animation: fade5 25s infinite;
 }
 
- @-webkit-keyframes fade1 {
+ @-webkit-keyframes fade1slideknap {
+ 0% {
+opacity:1;
+height: auto;
+}
+ 17% {
+opacity: 1
+}
+ 25% {
+opacity: 0
+}
+ 34% {
+opacity: 0
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 1
+}
+}
+ @keyframes fade1slideknap {
+ 0% {
+opacity:1;
+height: auto;
+}
+ 17% {
+opacity: 1;
+height: auto;
+}
+ 25% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 0;
+height: 0;
+}
+ 50% {
+opacity: 0;
+height: 0;
+}
+ 67% {
+opacity: 0;
+height: 0;
+}
+ 84% {
+opacity: 0;
+height: 0;
+}
+ 100% {
+opacity: 1;
+height: auto;
+}
+}
+ @-webkit-keyframes fade2slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 1
+}
+ 42% {
+opacity: 0
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade2slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 1
+}
+ 42% {
+opacity: 0
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+ @-webkit-keyframes fade3slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 0
+}
+ 50% {
+opacity: 1
+}
+ 58% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade3slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 0
+}
+ 50% {
+opacity: 1
+}
+ 58% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+ @-webkit-keyframes fade4slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 0
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 1
+}
+ 75% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade4slideknap {
+ 0% {
+opacity:0;
+height: 0;
+}
+ 17% {
+opacity: 0;
+height: 0;
+}
+ 34% {
+opacity: 0;
+height: 0;
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 1
+}
+ 75% {
+opacity: 0
+}
+ 84% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+ @-webkit-keyframes fade5slideknap {
+ 0% {
+opacity:1;
+height: 200px;
+left:150px;
+top:50px;
+}
+ 17% {
+opacity: 1;
+height: 200px;
+left:150px;
+top:50px;
+}
+ 34% {
+opacity: 0;
+height: 0;
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 1
+}
+ 92% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+@keyframes fade5slideknap {
+ 0% {
+opacity:1;
+height: 200px;
+left:0;
+top:10px;
+}
+ 17% {
+opacity: 1;
+height: 200px;
+left:0;
+top:10px;
+}
+ 34% {
+opacity: 0
+}
+ 50% {
+opacity: 0
+}
+ 67% {
+opacity: 0
+}
+ 84% {
+opacity: 1
+}
+ 92% {
+opacity: 0
+}
+ 100% {
+opacity: 0
+}
+}
+
+@-webkit-keyframes fade1 {
  0% {
 opacity:1
 }
@@ -312,10 +637,10 @@ opacity: 0
     border-radius: 4px;
     background: #00818B;
     opacity: 0.7;
-    width: 20%;
+    width: 100%;
 	padding: 0.5%;
-    margin-left: 5%;
-    margin-top: 55%;
+    /*margin-left: 5%;
+    margin-top: 55%;*/
 }
 .slide1 a,.slide2 a,.slide2 a,.slide3 a,.slide4 a, .slide5 a{
 	text-decoration: none;

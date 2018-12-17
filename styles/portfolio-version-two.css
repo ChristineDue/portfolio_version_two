@@ -538,7 +538,11 @@ form .submit {
 .basketball2 img{
 	width: 90%;
 }
-
+.together img{
+	width: 90%;
+	border: none;
+	box-shadow: none;
+}
 @media handheld, only screen and (max-width: 1193px) {
 .containerforside {
     vw: 748px;

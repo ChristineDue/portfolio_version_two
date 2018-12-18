@@ -22,6 +22,12 @@ img {
 .normalnavigation {
     padding: 0 5%;
 }
+
+.navigationsdiv{
+	width: 33%;
+	height: 40px;
+	position: relative;
+}
 .logo img {
     position: relative;
     bottom: 20px;
@@ -33,17 +39,21 @@ img {
 }
 #navigation {
     margin-top: 2%;
+	display: flex;
 }
 #navigation a {
     text-decoration: none;
     color: black;
     font-size: 1.20em;
-    transition: all 200ms;/*font-weight: 600;*/
+    transition: all 300ms;/*font-weight: 600;*/
+	position: absolute;
+	bottom: 10%;
+	left: 15%;
 }
 #navigation a:hover {
     cursor: pointer;
     color: #00818B;
-    font-size: 20px;
+    font-size: 25px;
 }
 #navigation .currentpage {
     color: #00818B;
@@ -191,16 +201,17 @@ li {
     background-color: #00818B;
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 16px 16px;
 }
 .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
+	width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }
 .flow1 img, .flow2 img, .flow3 img, .flow4 img, .flow5 img {
     opacity: 1;
@@ -208,7 +219,7 @@ li {
     backface-visibility: hidden;
 }
 .flow1:hover img, .flow2:hover img, .flow3:hover img, .flow4:hover img, .flow5:hover img {
-    opacity: 0.6;
+    opacity: 0.6
 }
 .flow1:hover .middle, .flow2:hover .middle, .flow3:hover .middle, .flow4:hover .middle, .flow5:hover .middle {
     opacity: 1;
@@ -246,6 +257,7 @@ li {
     position: absolute;
     background: #00818B;
     border-radius: 4px;
+	top: 79%;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }

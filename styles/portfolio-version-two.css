@@ -164,6 +164,29 @@ li {
 	box-shadow: none;
 }
 /* hover på billeder i projekter*/
+.projekttitel {
+    position: relative;
+	top: 30px;
+	left: 10px;
+	font-weight: 700;
+	border: 1px solid red;
+}
+.flow4 .projekttitel {
+    position: relative;
+	top: 30px;
+	left: 210px;
+	font-weight: 700;
+}
+.flow2:hover .projekttitel, .flow5:hover .projekttitel{
+	display: none;
+}
+.flow1 a, .flow2 a, .flow3 a, .flow4 a, .flow5 a{
+	text-decoration: none;
+	color: #00818B;
+}
+/*.flow5 .projekttitel:hover{
+	opacity: 0;
+}*/
 .hiddentext {
     background-color: #00818B;
     color: white;
@@ -502,31 +525,57 @@ img {
     transition: all 1s ease-in-out;
 }
 .form-control {
-    width: 50%;
+    width: 80%;
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid #1a8089;
-    color: #1a8089;
-    font-family: 'Varela Round', sans-serif;
+    border-bottom: 1px solid black;
+    font-family: 'Nunito', sans-serif;
 }
 form {
     transition: all 1s ease-in-out;
     position: relative;
-    margin-bottom: 5%;
 }
 input {
     height: 40px;
 }
 form .submit {
-    background: #1a8089;
+    /*background: #1a8089;*/
     border-color: transparent;
-    color: white;
+    color: black;
+	border: 1px solid black;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+}
+.kontaktside{
+	margin-top: 10%;
+}
+.kontaktsideinfo{
+	height: 600px;
+	margin-top: 10%;
+}
+.kontaktsideinfo li {
+    list-style-type: none;
+    font-size: 0.80em;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+	color: black;
+}
+.kontaktsideinfobillede img{
+	width: 80%;
+	margin-left: 15%;
+}
+#footer {
+    margin-left: 65%;
+    margin-top: 5%;
+}
+.footerkontakt h2 {
+    font-size: 1em;
+    text-align: inherit;
+    border-bottom: 1px solid #000000;
 }
 /*About style*/
 .aboutpic img {
@@ -672,6 +721,14 @@ nav{
 }
 .overskriftprojekter h1 {
     font-size: 1.75em;
+}
+.flow5 .projekttitel {
+	top: 125px;
+	left: 10px;
+	color: black;
+	font-size: 1.2em;
+	text-shadow: 5px black;
+	font-weight: 800;
 }
 .flow1, .flow2, .flow3, .flow4, .flow5 {
     position: relative;

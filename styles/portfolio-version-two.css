@@ -748,6 +748,16 @@ form .submit {
     -webkit-justify-content: space-between;
     justify-content: space-between;
 }
+.kontaktsideinfo{
+	margin-top: 15%;	
+}
+.kontaktsideinfo ul{
+	margin-left: 20%;	
+}
+.kontaktsideinfobillede img{
+	width: 70%;
+	height: auto;
+}
 }
 
 @media handheld, only screen and (max-width: 375px) {

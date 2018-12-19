@@ -644,6 +644,15 @@ form .submit {
 #navigation a {
     font-size: 1em;
 }
+.flow3 img{
+	margin-left: 20%;	
+}
+.flow2 img{
+	margin-right: 20%;	
+}
+.flow1 img{
+	margin-right: 30%;	
+}
 }
 
 @media handheld, only screen and (max-width: 992px) {
@@ -683,11 +692,45 @@ form .submit {
 .flowtekst {
     display: none;
 }
-.flow5 img {
-    width: 95%;
+.overskriftprojekter{
+	margin-top: -5%;		
 }
 .projekter {
     text-align: center;
+	margin-top: -15%;
+}
+.flow1 img {
+    width: 95%;
+    height: auto;
+    margin-top: 1%;
+}
+.flow2 img {
+    width: 95%;
+    height: auto;
+}
+.flow3 img {
+    width: 95%;
+    height: auto;
+    box-shadow: none;
+    border: none;
+}
+.flow4 img {
+    width: 95%;
+    height: auto;
+}
+.flow5 img {
+    width: 95%;
+    height: auto;
+}
+.smalltekst{
+	width: 100%;
+	display: flex;
+}
+.smalltekst p{
+	text-align: center;
+	position: relative;
+	left: 15px;
+	font-weight: 700;
 }
 .slideknap {
     width: 16%;
@@ -774,16 +817,6 @@ nav{
 }
 .row p {
     text-justify: distribute;
-}
-.smalltekst{
-	width: 100%;
-	display: flex;
-}
-.smalltekst p{
-	text-align: center;
-	position: relative;
-	left: 10px;
-	font-weight: 700;
 }
 .lilleprojektstyrring{
 	display: block;

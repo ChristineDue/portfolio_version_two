@@ -653,6 +653,7 @@ form .submit {
 .flow1 img{
 	margin-right: 30%;	
 }
+
 }
 
 @media handheld, only screen and (max-width: 992px) {
@@ -757,6 +758,9 @@ form .submit {
 .kontaktsideinfobillede img{
 	width: 70%;
 	height: auto;
+}
+.overskriftlink h1:hover {
+    background: none;
 }
 }
 

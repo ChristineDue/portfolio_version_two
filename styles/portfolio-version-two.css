@@ -337,7 +337,7 @@ li {
 .flow1underside img {
     border: none;
     box-shadow: none;
-    width: 30%;
+    width: 90%;
 }
 .flow1billede img {
     width: 90%;
@@ -516,6 +516,7 @@ img {
 
 .contact-form {
     text-align: center;
+	margin-top: -5%;
 }
 .contact-title {
     text-align: center;
@@ -549,24 +550,29 @@ form .submit {
     letter-spacing: 2px;
     height: 50px;
     margin-top: 20px;
+	cursor: pointer;
 }
 .kontaktside{
 	margin-top: 10%;
 }
 .kontaktsideinfo{
 	height: 600px;
-	margin-top: 10%;
+}
+.overskriftkontakt{
+	text-align: center;
+	margin-top: -10%;
 }
 .kontaktsideinfo li {
     list-style-type: none;
     font-size: 0.80em;
     word-spacing: 3px;
     letter-spacing: 2px;
+	margin-left: 50px;
 	color: black;
 }
 .kontaktsideinfobillede img{
-	width: 80%;
-	margin-left: 15%;
+	width: 70%;
+	margin-left: 18%;
 }
 #footer {
     margin-left: 65%;
@@ -712,12 +718,12 @@ nav{
 }
 .logo img {
     margin-top: 15%;
-    width: 80%;
+    width: 90%;
 }
 .overskriftprojekter {
     display: flex;
     text-align: center;
-    margin-top: 5%;
+    margin-top: -8%;
 }
 .overskriftprojekter h1 {
     font-size: 1.75em;
@@ -765,6 +771,9 @@ nav{
 .flow5 img {
     width: 100%;
     height: auto;
+}
+.row p {
+    text-justify: distribute;
 }
 .smalltekst{
 	width: 100%;
@@ -870,5 +879,13 @@ nav .menuliste {
 }
 input#toggle:checked ~ .menu {
     top: -800px;
+}
+/*Kontakt style small*/
+.kontaktsideinfo{
+	margin-left: -10px;
+	margin-top: 20%;
+}
+.kontaktsideinfo ul{
+	margin-left: -40px;
 }
 }

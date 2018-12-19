@@ -73,7 +73,7 @@
     -webkit-animation: fade4 25s infinite;
 }
 .slide5 {
-    background: url("../images/portfolio-new/slideshow/dream-your-portfolio.png")no-repeat center;
+    background: url(../images/portfolio-new/slideshow/dreamyour.jpg)no-repeat center;
     background-size: contain;
     animation: fade5 25s infinite;
     -webkit-animation: fade5 25s infinite;

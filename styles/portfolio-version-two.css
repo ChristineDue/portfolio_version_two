@@ -112,9 +112,11 @@ li {
 }
 .flow1, .flow2, .flow3, .flow4, .flow5 {
     position: relative;
+	border: 1px solid blue;
 }
 .flow1og2, .flow1, .flow3 {
     margin-top: 1%;
+	border: 1px solid green;
 }
 .flow3, .flow4 {
     margin-right: 1%;
@@ -147,7 +149,7 @@ li {
 }
 .flow3 .hiddentext {
     position: relative;
-    left: 55px;
+	left: 55px;
     bottom: 1px;
 }
 .flow3 img {
@@ -289,7 +291,6 @@ li {
     text-align: center;
 }
 .row p {
-    padding: 0 5%;
     text-align: justify;
 }
 /*Arrows med inspiration fra https://codepen.io/carstenmeyer/pen/rraoAp*/
@@ -397,6 +398,9 @@ li {
     cursor: pointer;
     color: #00818B;
     text-decoration: none;
+}
+.flowlink p{
+	hyphens: auto;
 }
 img {
     height: auto;
@@ -632,6 +636,9 @@ form .submit {
 .contact-title h1 {
     font-size: 1.2em;
 }
+	.flow3{
+		border: 1px solid red;
+	}
 }
 
 @media handheld, only screen and (max-width: 1180px) {
@@ -709,8 +716,12 @@ form .submit {
     width: 95%;
     height: auto;
 }
+.flow3{
+	margin-top: 15%;	
+}
 .flow3 img {
     width: 95%;
+	margin-left: 0;
     height: auto;
     box-shadow: none;
     border: none;
@@ -810,10 +821,7 @@ nav{
 }
 .flow3 {
     text-align: center;
-	margin-top: -10%;
-}
-.flow5, .flow2, .flow4 {
-	margin-top: -5%;
+	margin-top: 10%;
 }
 .flow3 img {
     width: 100%;
@@ -830,7 +838,7 @@ nav{
     height: auto;
 }
 .row p {
-    text-justify: distribute;
+    text-align: left;
 }
 .lilleprojektstyrring{
 	display: block;

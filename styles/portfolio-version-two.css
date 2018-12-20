@@ -112,11 +112,9 @@ li {
 }
 .flow1, .flow2, .flow3, .flow4, .flow5 {
     position: relative;
-	border: 1px solid blue;
 }
 .flow1og2, .flow1, .flow3 {
     margin-top: 1%;
-	border: 1px solid green;
 }
 .flow3, .flow4 {
     margin-right: 1%;
@@ -292,6 +290,8 @@ li {
 }
 .row p {
     text-align: justify;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 /*Arrows med inspiration fra https://codepen.io/carstenmeyer/pen/rraoAp*/
 .pic {
@@ -336,8 +336,6 @@ li {
     text-align: center;
 }
 .flow1underside img {
-    border: none;
-    box-shadow: none;
     width: 90%;
 }
 .flow1billede img {
@@ -516,6 +514,21 @@ img {
 .portfoliopic img{
 	width: 90%;
 }
+.iphone img{
+	box-shadow: none;
+	border: none;
+	width: 50%;
+}
+.ipad img{
+	box-shadow: none;
+	border: none;
+	width: 80%;
+}
+.web img{
+	box-shadow: none;
+	border: none;
+	width: 90%;
+}
 /*Contact style*/
 
 .contact-form {
@@ -636,9 +649,6 @@ form .submit {
 .contact-title h1 {
     font-size: 1.2em;
 }
-	.flow3{
-		border: 1px solid red;
-	}
 }
 
 @media handheld, only screen and (max-width: 1180px) {
@@ -682,6 +692,15 @@ form .submit {
 }
 
 @media handheld, only screen and (max-width: 768px) {
+/*Navigation style*/
+#navigation a {
+    font-size: 1em;
+	margin-bottom: 15%;
+}
+/*Flow undeside style*/
+.flowtekst {
+    display: none;
+}
 .lilleflowtekst {
     display: flex;
 }
@@ -697,11 +716,12 @@ form .submit {
 .menulinje {
     display: none;
 }
-.flowtekst {
-    display: none;
-}
+/*Projekter style*/
 .overskriftprojekter{
 	margin-top: -5%;		
+}
+.overskriftprojekter h1 {
+    font-size: 2em;
 }
 .projekter {
     text-align: center;
@@ -717,7 +737,7 @@ form .submit {
     height: auto;
 }
 .flow3{
-	margin-top: 15%;	
+	margin-top: 15%;
 }
 .flow3 img {
     width: 95%;
@@ -739,12 +759,13 @@ form .submit {
 	display: flex;
 }
 .smalltekst p{
-	text-align: center;
 	position: relative;
 	left: 15px;
 	font-weight: 700;
+	font-size: 1.5em;
 }
-.slideknap {
+/*Slideshov style*/
+.slideknap1, .slideknap2, .slideknap3, .slideknap4, .slideknap5 {
     width: 16%;
     padding: 1%;
     margin-left: 10%;
@@ -760,6 +781,14 @@ form .submit {
     -webkit-justify-content: space-between;
     justify-content: space-between;
 }
+/*about style*/
+.basketball1 img{
+	margin-top: 0;
+}
+.basketball2 img{
+	margin-top: 0;
+}
+/*Kontaktstyle*/
 .kontaktsideinfo{
 	margin-top: 15%;	
 }
@@ -776,6 +805,7 @@ form .submit {
 }
 
 @media handheld, only screen and (max-width: 375px) {
+/*Navigation, body og logo style*/
 nav{
 	display: flex;
 }
@@ -788,6 +818,7 @@ nav{
     margin-top: 15%;
     width: 80%;
 }
+/*Projekterstyle*/
 .overskriftprojekter {
     display: flex;
     text-align: center;
@@ -837,9 +868,11 @@ nav{
     width: 100%;
     height: auto;
 }
+/*Flow underside style*/
 .row p {
     text-align: left;
 }
+/*Flow5*/
 .lilleprojektstyrring{
 	display: block;
 }
@@ -849,6 +882,7 @@ nav{
 	box-shadow: none;
 	border: none;
 }
+/*Flow4*/
 .lilleflow4projektstyrring{
 	display: block;
 }
@@ -865,18 +899,28 @@ nav{
 	width: 60%;
 	height: auto;
 }
-.form-control {
-    width: 100%;
+/*About style*/
+.abouttext h1{
+	font-size: 1.2em;
 }
+.basketball1 img{
+	margin-top: 0;
+}
+.basketball2 img{
+	margin-top: 0;
+}
+/*Frem og tilbage pile*/
 .largearrows {
     display: none;
 }
 .smallarrows {
     display: flex;
 }
+/*Footer style*/
 #footer {
     margin-left: 0;
 }
+/*Burgermenu style*/
 .SoMeimages {
     position: relative;
     top: 5%;
@@ -931,12 +975,18 @@ nav .menuliste {
 input#toggle:checked ~ .menu {
     top: -800px;
 }
-/*Kontakt style small*/
+/*Contact style*/
+.form-control {
+    width: 100%;
+}
 .kontaktsideinfo{
 	margin-left: -10px;
 	margin-top: 20%;
 }
 .kontaktsideinfo ul{
 	margin-left: -40px;
+}
+.contact-form h1, .overskriftkontakt h1 {
+	font-size: 1.2em;
 }
 }

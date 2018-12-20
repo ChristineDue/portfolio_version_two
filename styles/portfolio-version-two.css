@@ -871,6 +871,10 @@ nav{
 /*Flow underside style*/
 .row p {
     text-align: left;
+	margin-left: 0;
+}
+.lilleflowtekst p{
+	margin-right: 0;
 }
 /*Flow5*/
 .lilleprojektstyrring{

@@ -178,9 +178,6 @@ li {
 	text-decoration: none;
 	color: #00818B;
 }
-/*.flow5 .projekttitel:hover{
-	opacity: 0;
-}*/
 .hiddentext {
     background-color: #00818B;
     color: white;
@@ -527,6 +524,12 @@ img {
 	box-shadow: none;
 	border: none;
 	width: 90%;
+}
+.lilleparagraf{
+	display: none;
+}
+.lillecoding{
+	display: none;
 }
 /*Contact style*/
 
@@ -887,6 +890,12 @@ nav{
 	height: auto;
 	box-shadow: none;
 	border: none;
+}
+.lilleparagraf{
+	display: flex;
+}
+.lillecoding{
+	display: flex;
 }
 /*Flow4*/
 .lilleflow4projektstyrring{
